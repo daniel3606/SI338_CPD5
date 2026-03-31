@@ -1,0 +1,13 @@
+@media screen and (min-width:776px){
+    .gallery-list{
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 200px;
+
+    }
+
+
+    .gallery-list li:nth-child(3n){
+    grid-column: 1/-1;
+    }
+}
+
